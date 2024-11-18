@@ -1,0 +1,26 @@
+name: multi_theme_font_app
+description: A Flutter app with multi-theme and multi-font support.
+
+environment:
+  sdk: "^3.5.0"  # Ganti sesuai dengan versi SDK Dart yang Anda gunakan
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  google_fonts: ^4.0.3
+
+flutter:
+  assets:
+    - fonts/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto-Regular.ttf
+    - family: Lora
+      fonts:
+        - asset: fonts/Lora-Regular.ttf
